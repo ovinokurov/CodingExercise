@@ -1,5 +1,5 @@
 ﻿/*
- * © 2020 Coding Exercise
+ * © 2020 Coding Exercise
  * Author: Oleg Vinokurov
  * Description: Given a two dimensional array of letters, write a method that finds whether a given word exists in the array. 
  * The word is composed of letters in adjacent cells (horizontally or vertically neighboring only) where the same cell may 
