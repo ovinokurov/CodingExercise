@@ -27,13 +27,19 @@ namespace Test
                     };
             string word = "ABCCED";
             //TEST 1 ABCCED, return true.
-            Console.WriteLine(word + " : " + Exist(arr, word).ToString());
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"{word} : {Exist(arr, word).ToString()}");
             word = "SEE";
             //TEST 2 SEE, return true.
-            Console.WriteLine(word + " : " + Exist(arr, word).ToString());
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"{word} : {Exist(arr, word).ToString()}");
             word = "ABCB";
             //TEST 3 SEE, return false.
-            Console.WriteLine(word + " : " + Exist(arr, word).ToString());
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine($"{word} : {Exist(arr, word).ToString()}");
 
             bool IsExists = Exist(arr, word);
 
